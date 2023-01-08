@@ -1,7 +1,11 @@
 import UIKit
 
 // MARK: - Keywords to remember
-// type safety: Swift won’t let us mix different types of data by accident. You cannot add an int to float!
+//     type safety: Swift won’t let us mix different types of data by accident. You cannot add an int to float!
+//     Notice how we’re using + to join two strings, but when we used Int and Double it added numbers together? This is called "operator overloading".
+//     string interpolation: lets us efficiently create strings from other strings, but also from integers, decimal numbers, and more.
+
+
 
 // MARK: - Day 1 - variables, constants, strings, and numbers
 
@@ -78,3 +82,33 @@ var c = 4.0
 // var d = b + c  ->  but you cannot add an int to a float like that
 var d = Int(c) + b // that is the way how we add them
 
+
+// MARK: - Day 2 - Booleans, string interpolation
+
+//// how to store truth with booleans
+
+let gameOver = false  // you can assign directly
+
+let isMultiple = 300.isMultiple(of: 3) // you can assign the return value
+
+var isAuthenticated = false
+
+isAuthenticated = !isAuthenticated // you can toggle the boolean with !
+print(isAuthenticated)
+
+isAuthenticated.toggle() // or you can use toggle function
+print(isAuthenticated)
+
+//// How to join strings together
+
+let people = "Haters"
+let action = "hate"
+let lyric = people + " gonna " + action
+print(lyric)
+
+let name = "Taylor"
+let age = 26
+let message = "Hello, my name is \(name) and I'm \(age) years old."
+print(message)
+
+print("5 x 5 is \(5 * 5)")
