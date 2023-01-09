@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 // MARK: - Keywords to remember
 //     type safety: Swift won’t let us mix different types of data by accident. You cannot add an int to float!
@@ -112,3 +113,111 @@ let message = "Hello, my name is \(name) and I'm \(age) years old."
 print(message)
 
 print("5 x 5 is \(5 * 5)")
+
+
+// MARK: - Day 3 – Arrays, dictionaries, sets, and enums
+
+
+//// how to store and find data in array
+
+var beatles = ["John", "Paul", "George", "Ringo"]
+let numbers = [4, 8, 15, 16, 23, 42]
+var temperatures = [25.3, 28.2, 26.4]
+
+print(beatles[0])
+print(numbers[1])
+print(temperatures[2])
+
+beatles.append("Allen")
+beatles.append("Adrian")
+beatles.append("Novall")
+beatles.append("Vivian")
+
+let firstBeatle = beatles[0]
+let firstNumber = numbers[0]
+// let notAllowed = firstBeatle + firstNumber // you cannot apply summation on different kinds
+
+
+var scores = Array<Int>() // an empty array
+scores.append(100)
+scores.append(80)
+scores.append(85)
+print(scores[1])
+
+var albums = [String]() // also empty array
+albums.append("Folklore")
+albums.append("Fearless")
+albums.append("Red")
+
+var characters = ["Lana", "Pam", "Ray", "Sterling"]
+print(characters.count)
+
+characters.remove(at: 2)
+print(characters.count)
+
+characters.removeAll()
+print(characters.count)
+
+let bondMovies = ["Casino Royale", "Spectre", "No Time To Die"]
+print(bondMovies.contains("Frozen"))
+
+let cities = ["London", "Tokyo", "Rome", "Budapest"]
+print(cities.sorted())
+
+let presidents = ["Bush", "Obama", "Trump", "Biden"]
+let reversedPresidents = presidents.reversed()
+print(reversedPresidents)
+
+
+//// How to store and find data in dictionary
+
+let employee2 = [
+    "name": "Taylor Swift",
+    "job": "Singer",
+    "location": "Nashville"
+]
+
+print(employee2["name"])
+print(employee2["job"])
+print(employee2["location"]) // it will warn you
+
+print(employee2["name", default: "Unknown"])
+print(employee2["job", default: "Unknown"])
+print(employee2["location", default: "Unknown"])
+
+var heights = [String: Int]()
+heights["Yao Ming"] = 229
+heights["Shaquille O'Neal"] = 216
+heights["LeBron James"] = 206
+
+//// How to use sets for fast data lookup
+
+var peoplee = Set<String>()
+peoplee.insert("Denzel Washington")
+peoplee.insert("Tom Cruise")
+peoplee.insert("Nicolas Cage")
+peoplee.insert("Samuel L Jackson")
+
+var aa = Set([1,2,3,3]) // this is a set with 3 elements
+
+//// How to create and use enums
+
+
+enum Weekday {
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+}
+
+var day = Weekday.friday
+day = Weekday.monday
+
+enum Weekend {
+    case saturday, sunday
+}
+
+var weekendDay = Weekend.saturday
+weekendDay = Weekend.sunday
+
