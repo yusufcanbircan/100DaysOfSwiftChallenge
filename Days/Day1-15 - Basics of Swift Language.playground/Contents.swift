@@ -221,3 +221,45 @@ enum Weekend {
 var weekendDay = Weekend.saturday
 weekendDay = Weekend.sunday
 
+
+
+// MARK: - Day 4 – type annotations
+
+//// How to use type annotations
+
+let luckyNumber: Int = 23
+
+let pi: Double = 3.14
+
+let isAuth: Bool = true
+
+let albumss: [String] = ["yusuf", "can"]
+
+let ids: [String: String] = ["id": "yusuf"]
+
+var books: Set<String> = Set(["yusuf","can", "can"])
+
+var teams: [String] = [String]() // Empty array
+
+
+
+var clues = [String]() // type inference
+
+enum UIStyle {
+    case light, dark, system
+}
+
+var style = UIStyle.light
+style = .dark
+print(style)
+
+
+
+//This time the challenge is to create an array of strings, then write some code that prints the number of items in the array and also the number of unique items in the array.
+
+var arr: [String] = ["yusuf", "ali", "veli", "cansu", "fadime", "mehmet", "osman", "osman", "enes", "yusuf", "cansu", "ali"]
+print("The number of items in array: \(arr.count).")
+
+var arrSet = Set(arr)
+print("The number of unique items: \(arrSet.count)")
+
