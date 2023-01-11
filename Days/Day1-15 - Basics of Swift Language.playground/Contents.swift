@@ -263,3 +263,140 @@ print("The number of items in array: \(arr.count).")
 var arrSet = Set(arr)
 print("The number of unique items: \(arrSet.count)")
 
+
+// MARK: - Day 5 – if, switch, and the ternary operator
+
+//// How to check a condition is true or false
+
+let name = "Taylor Swift"
+
+if name != "Anonymous" {
+    print("Welcome, \(name)")
+}
+
+// Create the username variable
+var username = "taylorswift13
+
+// If `username` contains an empty string
+if username == "" {
+    // Make it equal to "Anonymous"
+    username = "Anonymous"
+}
+
+// Now print a welcome message
+print("Welcome, \(username)!")
+
+if username.count == 0 {
+    username = "Anonymous"
+}
+
+if username.isEmpty {
+    username = "Anonymous"
+}
+
+//// How to check multiple conditions
+
+enum TransportOption {
+    case airplane, helicopter, bicycle, car, scooter
+}
+
+let transport = TransportOption.airplane
+
+if transport == .airplane || transport == .helicopter {
+    print("Let's fly!")
+} else if transport == .bicycle {
+    print("I hope there's a bike path…")
+} else if transport == .car {
+    print("Time to get stuck in traffic.")
+} else {
+    print("I'm going to hire a scooter now!")
+}
+
+var actualWage: Int = 22_000
+var medianWage: Double = 22_000   // -> you cannot compare int and double
+if actualWage >= medianWage {
+    print("Success")
+}
+
+//// How to use switch statements to check multiple conditions
+
+enum Weather {
+    case sun, rain, wind, snow, unknown
+}
+
+let forecast = Weather.sun
+
+if forecast == .sun {
+    print("It should be a nice day.")
+} else if forecast == .rain {
+    print("Pack an umbrella.")
+} else if forecast == .wind {
+    print("Wear something warm")
+} else if forecast == .rain {
+    print("School is cancelled.")
+} else {
+    print("Our forecast generator is broken!")
+}
+
+switch forecast {
+case .sun:
+    print("It should be a nice day.")
+case .rain:
+    print("Pack an umbrella.")
+case .wind:
+    print("Wear something warm")
+case .snow:
+    print("School is cancelled.")
+case .unknown:
+    print("Our forecast generator is broken!")
+}
+
+let day = 5
+print("My true love gave to me…")
+
+switch day {
+case 5:
+    print("5 golden rings")
+case 4:
+    print("4 calling birds")
+case 3:
+    print("3 French hens")
+case 2:
+    print("2 turtle doves")
+default:
+    print("A partridge in a pear tree")
+}
+
+let day = 5
+print("My true love gave to me…")
+
+switch day {
+case 5:
+    print("5 golden rings")
+    fallthrough
+case 4:
+    print("4 calling birds")
+    fallthrough
+case 3:
+    print("3 French hens")
+    fallthrough
+case 2:
+    print("2 turtle doves")
+    fallthrough
+default:
+    print("A partridge in a pear tree")
+}
+
+//// How to use the ternary conditional operator for quick tests
+
+let age = 18
+let canVote = age >= 18 ? "Yes" : "No"
+
+enum Theme {
+    case light, dark
+}
+
+let theme = Theme.dark
+
+let background = theme == .dark ? "black" : "white"
+print(background)
