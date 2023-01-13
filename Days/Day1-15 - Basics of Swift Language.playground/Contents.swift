@@ -472,3 +472,78 @@ for i in 1...100_000 {
 print(multiples)
 
 
+// MARK: - Day 7 – functions, parameters, and return values
+
+//// How to reuse code with functions
+
+func printTimesTables(number: Int, end: Int) {
+    for i in 1...end {
+        print("\(i) x \(number) is \(i * number)")
+    }
+}
+
+printTimesTables(number: 5, end: 20)
+
+//// How to return values from functions
+
+let root = sqrt(169)
+print(root)
+
+func rollDice() -> Int {
+    return Int.random(in: 1...6)
+}
+
+let result = rollDice()
+print(result)
+
+func pythagoras(a: Double, b: Double) -> Double {
+    let input = a * a + b * b
+    let root = sqrt(input)
+    return root
+}
+
+let c = pythagoras(a: 3, b: 4)
+print(c)
+
+func pythagorass(a: Double, b: Double) -> Double {
+    sqrt(a * a + b * b)
+}
+
+
+//// How to return multiple values from functions
+
+func getUserrrrr() -> [String] {
+    ["Taylor", "Swift"]
+}
+
+let user = getUser()
+print("Name: \(user[0]) \(user[1])")
+
+func getUserrr() -> [String: String] {
+    [
+        "firstName": "Taylor",
+        "lastName": "Swift"
+    ]
+}
+
+let user = getUser()
+print("Name: \(user["firstName", default: "Anonymous"]) \(user["lastName", default: "Anonymous"])")
+
+func getUserr() -> (firstName: String, lastName: String) {
+    (firstName: "Taylor", lastName: "Swift")
+}
+
+let user = getUserr()
+print("Name: \(user.firstName) \(user.lastName)")
+
+unc getUser() -> (firstName: String, lastName: String) {
+    (firstName: "Taylor", lastName: "Swift")
+}
+
+let user = getUser()
+let firstName = user.firstName
+let lastName = user.lastName
+
+print("Name: \(firstName) \(lastName)")
+
+
