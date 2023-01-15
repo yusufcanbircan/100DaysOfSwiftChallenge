@@ -603,3 +603,83 @@ do {
 } catch {
     print("There was an error.")
 }
+
+
+// MARK: - Day 9 – closures, passing functions into functions
+
+//// How to create and use closures
+
+let sayHello = {
+    print("Hi there!")
+}
+
+sayHello()
+
+let sayHello = { (name: String) -> String in
+    "Hi \(name)!"
+}
+
+func getUserData(for id: Int) -> String {
+    if id == 1989 {
+        return "Taylor Swift"
+    } else {
+        return "Anonymous"
+    }
+}
+
+let data: (Int) -> String = getUserData
+let user = data(1989)
+print(user)
+
+
+func captainFirstSorted(name1: String, name2: String) -> Bool {
+    if name1 == "Suzanne" {
+        return true
+    } else if name2 == "Suzanne" {
+        return false
+    }
+
+    return name1 < name2
+}
+
+let team = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
+
+let captainFirstTeam = team.sorted(by: captainFirstSorted)
+print(captainFirstTeam)
+
+
+//// How to use trailing closures and shorthand syntax
+
+let teamm = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
+
+let captainFirstTeam = teamm.sorted(by: { (name1: String, name2: String) -> Bool in
+    if name1 == "Suzanne" {
+        return true
+    } else if name2 == "Suzanne" {
+        return false
+    }
+
+    return name1 < name2
+})
+
+print(captainFirstTeam)
+
+let captainFirstTeam = team.sorted {
+    if $0 == "Suzanne" {
+        return true
+    } else if $1 == "Suzanne" {
+        return false
+    }
+
+    return $0 < $1
+}
+
+let reverseTeam = team.sorted { $0 > $1 }
+
+let tOnly = team.filter { $0.hasPrefix("T") }
+print(tOnly)
+
+let uppercaseTeam = team.map { $0.uppercased() }
+print(uppercaseTeam)
+
+
