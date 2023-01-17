@@ -268,14 +268,14 @@ print("The number of unique items: \(arrSet.count)")
 
 //// How to check a condition is true or false
 
-let name = "Taylor Swift"
+let namee = "Taylor Swift"
 
-if name != "Anonymous" {
-    print("Welcome, \(name)")
+if namee != "Anonymous" {
+    print("Welcome, \(namee)")
 }
 
 // Create the username variable
-var username = "taylorswift13
+var username = "taylorswift13"
 
 // If `username` contains an empty string
 if username == "" {
@@ -314,9 +314,9 @@ if transport == .airplane || transport == .helicopter {
 
 var actualWage: Int = 22_000
 var medianWage: Double = 22_000   // -> you cannot compare int and double
-if actualWage >= medianWage {
+/*if actualWage >= medianWage {
     print("Success")
-}
+}*/
 
 //// How to use switch statements to check multiple conditions
 
@@ -351,10 +351,10 @@ case .unknown:
     print("Our forecast generator is broken!")
 }
 
-let day = 5
+let dayyy = 5
 print("My true love gave to me…")
 
-switch day {
+switch dayyy {
 case 5:
     print("5 golden rings")
 case 4:
@@ -367,10 +367,10 @@ default:
     print("A partridge in a pear tree")
 }
 
-let day = 5
+let dayy = 5
 print("My true love gave to me…")
 
-switch day {
+switch dayy {
 case 5:
     print("5 golden rings")
     fallthrough
@@ -389,8 +389,8 @@ default:
 
 //// How to use the ternary conditional operator for quick tests
 
-let age = 18
-let canVote = age >= 18 ? "Yes" : "No"
+let agem = 18
+let canVote = agem >= 18 ? "Yes" : "No"
 
 enum Theme {
     case light, dark
@@ -502,8 +502,8 @@ func pythagoras(a: Double, b: Double) -> Double {
     return root
 }
 
-let c = pythagoras(a: 3, b: 4)
-print(c)
+let cc = pythagoras(a: 3, b: 4)
+print(cc)
 
 func pythagorass(a: Double, b: Double) -> Double {
     sqrt(a * a + b * b)
@@ -516,33 +516,31 @@ func getUserrrrr() -> [String] {
     ["Taylor", "Swift"]
 }
 
-let user = getUser()
+let user = getUserrrrr()
 print("Name: \(user[0]) \(user[1])")
 
-func getUserrr() -> [String: String] {
+func getUser() -> [String: String] {
     [
         "firstName": "Taylor",
         "lastName": "Swift"
     ]
 }
 
-let user = getUser()
-print("Name: \(user["firstName", default: "Anonymous"]) \(user["lastName", default: "Anonymous"])")
+let users = getUser()
+print("Name: \(users["firstName", default: "Anonymous"]) \(users["lastName", default: "Anonymous"])")
 
 func getUserr() -> (firstName: String, lastName: String) {
     (firstName: "Taylor", lastName: "Swift")
 }
 
-let user = getUserr()
-print("Name: \(user.firstName) \(user.lastName)")
 
-unc getUser() -> (firstName: String, lastName: String) {
+func getUserrrr() -> (firstName: String, lastName: String) {
     (firstName: "Taylor", lastName: "Swift")
 }
 
-let user = getUser()
-let firstName = user.firstName
-let lastName = user.lastName
+let userrrr = getUserrrr()
+let firstName = userrrr.firstName
+let lastName = userrrr.lastName
 
 print("Name: \(firstName) \(lastName)")
 
@@ -615,7 +613,7 @@ let sayHello = {
 
 sayHello()
 
-let sayHello = { (name: String) -> String in
+let sayHelloo = { (name: String) -> String in
     "Hi \(name)!"
 }
 
@@ -628,8 +626,8 @@ func getUserData(for id: Int) -> String {
 }
 
 let data: (Int) -> String = getUserData
-let user = data(1989)
-print(user)
+let userr = data(1989)
+print(userr)
 
 
 func captainFirstSorted(name1: String, name2: String) -> Bool {
@@ -644,8 +642,8 @@ func captainFirstSorted(name1: String, name2: String) -> Bool {
 
 let team = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
 
-let captainFirstTeam = team.sorted(by: captainFirstSorted)
-print(captainFirstTeam)
+let captainFirstTeammmm = team.sorted(by: captainFirstSorted)
+print(captainFirstTeammmm)
 
 
 //// How to use trailing closures and shorthand syntax
@@ -664,7 +662,7 @@ let captainFirstTeam = teamm.sorted(by: { (name1: String, name2: String) -> Bool
 
 print(captainFirstTeam)
 
-let captainFirstTeam = team.sorted {
+let captainFirstTeamm = team.sorted {
     if $0 == "Suzanne" {
         return true
     } else if $1 == "Suzanne" {
@@ -708,7 +706,7 @@ wings.printSummary()
 
 //// How to compute property values dynamically
 
-struct Employee {
+/* struct Employee {
     let name: String
     var vacationRemaining: Int
 }
@@ -748,7 +746,7 @@ var vacationRemaining: Int {
 var archer = Employee(name: "Sterling Archer", vacationAllocated: 14)
 archer.vacationTaken += 4
 archer.vacationRemaining = 5
-print(archer.vacationAllocated)
+print(archer.vacationAllocated) */
 
 //// How to take action when a property changes
 
@@ -848,11 +846,11 @@ struct School {
 School.add(student: "Taylor Swift")
 print(School.studentCount)
 
-struct Employee {
+struct Employeee {
     let username: String
     let password: String
 
-    static let example = Employee(username: "cfederighi", password: "hairforceone")
+    static let example = Employeee(username: "cfederighi", password: "hairforceone")
 }
 
 struct AppData {
