@@ -5,7 +5,7 @@ import Foundation
 //     type safety: Swift won’t let us mix different types of data by accident. You cannot add an int to float!
 //     Notice how we’re using + to join two strings, but when we used Int and Double it added numbers together? This is called "operator overloading".
 //     string interpolation: lets us efficiently create strings from other strings, but also from integers, decimal numbers, and more.
-
+//     reference type: classes are reference types in Swift
 
 
 // MARK: - Day 1 - variables, constants, strings, and numbers
@@ -859,3 +859,138 @@ struct AppData {
     static let homeURL = "https://www.hackingwithswift.com"
 }
 
+// MARK: - Day 12 – classes, inheritance
+
+//// How to create your own classes
+
+class Gamee {
+    
+    var score: Int {
+        willSet{
+            print("Score is \(score)")
+        }
+        didSet {
+            print("Score is now \(score)")
+        }
+    }
+    
+    init(score: Int) {
+        self.score = score
+    }
+    
+}
+
+var newGame = Gamee(score: 5)
+newGame.score += 10
+newGame.score += 10
+newGame.score += 10
+
+//// How to make one class inherit from another
+
+class Employee {
+    var hours: Int
+    
+    func printSummary() {
+        print("I work \(hours) hours a day.")
+    }
+    
+    init(hours: Int) {
+        self.hours = hours
+    }
+}
+
+class Developer: Employee {
+    func work() {
+        print("I'm writing codes for \(hours) hours.")
+    }
+    
+    override func printSummary() {
+        print("I'm a developer who works \(hours) hours a day.")
+    }
+}
+
+class Manager: Employee {
+    func work() {
+        print("I'm going to meetings for \(hours) hours.")
+    }
+}
+
+let robert = Developer(hours: 5)
+let joseph = Manager(hours: 3)
+robert.work()
+joseph.work()
+robert.printSummary()
+
+//// How to add initializers for classes
+
+class Vehicle {
+    var isElectric: Bool
+    
+    init(isElectric: Bool) {
+        self.isElectric = isElectric
+    }
+}
+
+class Car: Vehicle {
+    var isConvertable: Bool
+    init(isElectric: Bool, isConvertable: Bool) {
+        self.isConvertable = isConvertable
+        super.init(isElectric: isElectric)
+    }
+}
+
+let teslaX = Car(isElectric: true, isConvertable: false)
+
+//// How to copy classes
+
+class User {
+    var username = "Anonymous"
+    
+    func copy() -> User {
+        let user = User()
+        user.username = username
+        return user
+    }
+}
+
+var user1 = User()
+var user2 = user1.copy()
+var user3 = user1
+
+user2.username = "Yusuf"
+user3.username = "ali"
+
+print("\(user1.username) - \(user2.username) - \(user3.username)")
+
+//// How to create a deinitializer for a class
+
+
+class Users {
+    let id: Int
+    
+    init(id: Int) {
+        self.id = id
+        print("I am \(id) alive!")
+    }
+    
+    deinit {
+        print("I am \(id) dead!")
+    }
+}
+
+for i in 1...3 {
+    let user = Users(id: i)
+    print("I am \(user.id) in control!")
+}
+
+var userss = [Users]()
+
+for i in 1...3 {
+    let user = Users(id: i)
+    print("User \(user.id): I'm in control!")
+    userss.append(user)
+}
+
+print("Loop is finished!")
+userss.removeAll()
+print("Array is clear!")
