@@ -1000,12 +1000,12 @@ print("Array is clear!")
 
 //// How to create and use protocols
 
-protocol Vehicle {
+protocol Veehicle {
     func estimateTime(for distance: Int) -> Int
     func travel(distance: Int)
 }
 
-struct Car: Vehicle {
+struct Caar: Veehicle {
     func estimateTime(for distance: Int) -> Int {
         distance / 50
     }
@@ -1019,7 +1019,7 @@ struct Car: Vehicle {
     }
 }
 
-func commute(distance: Int, using vehicle: Car) {
+func commute(distance: Int, using vehicle: Caar) {
     if vehicle.estimateTime(for: distance) > 100 {
         print("That's too slow! I'll try a different vehicle.")
     } else {
@@ -1027,5 +1027,69 @@ func commute(distance: Int, using vehicle: Car) {
     }
 }
 
-let caar = Car()
+let caar = Caar()
 commute(distance: 100, using: caar)
+
+//// How to use opaque return types
+
+/*func getRandomNumber() -> Int {
+    Int.random(in: 1...6)
+}
+
+func getRandomBool() -> Bool {
+    Bool.random()
+}*/ // we can use the code below instead of this one
+
+func getRandomNumber() -> some Equatable {
+    Int.random(in: 1...6)
+}
+
+func getRandomBool() -> some Equatable {
+    Bool.random()
+}
+
+print(getRandomNumber() == getRandomNumber())
+
+
+//// How to create and use extensions
+
+extension String {
+    func trimmed() -> String {
+        self.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    mutating func trim() {
+        self = self.trimmed()
+    }
+}
+
+func trim(_ string: String) -> String {
+    string.trimmingCharacters(in: .whitespacesAndNewlines)
+}
+
+var quotee = "   The truth is rarely pure and never simple   "
+
+//let trimmed = quotee.trimmingCharacters(in: .whitespacesAndNewlines)
+let trimmed = quotee.trimmed()
+
+quotee.trim()
+
+//// How to create and use protocol
+
+protocol Person {
+    var name: String { get }
+    func sayHello()
+}
+
+extension Person {
+    func sayHello() {
+        print("Hi, I'm \(name)")
+    }
+}
+
+struct Employeeee: Person {
+    let name: String
+}
+
+let taylor = Employeeee(name: "Taylor Swift")
+taylor.sayHello()
