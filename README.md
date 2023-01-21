@@ -1,1 +1,78 @@
-# 100DaysOfSwiftChallenge
+<h1 align=center> 100 Days of Swift Challenge </h1>
+
+This is my 100-day Swift journey. 
+
+## Planning
+
+| Start Date | Finish Date | Day | Course                                    | Status        | 
+|------------|-------------|-----|-------------------------------------------|---------------| 
+| 25/08/2022 | 01/02/2023  | 155 | iOS Mobile App Development Cource         | Done ❌       |
+| 06/01/2022 | 01/03/2022  | 56  | Hacking With Swift - UIKit                | Done ❌       |
+
+
+## Journey Files
+
+| Name | Link |
+| ---- | ---- |
+| The Basics Of Swift | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/blob/main/Days/Day1-15%20-%20Basics%20of%20Swift%20Language.playground/Contents.swift"> Project </a> |
+| Background Modes | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/BackgroundModesUsage-AudioPlayer"> Project </a> |
+| Notification | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/CreateNotification"> Project </a> |
+| Notification Center | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/NotificationCenterUsage"> Project </a> |
+| Present Modally | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/Present%20Modally%20Usage"> Project </a> |
+| Timer | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/TimerUsage"> Project </a> |
+| Transition Between Pages With Code | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/TransitionBetweenPageWithCode"> Project </a> |
+| Activity Indicator | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/activityIndicatorUsage"> Project </a> |
+| Alerts | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/alertUsages"> Project </a> |
+| CollectionView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/collectionViewUsage"> Project </a> |
+| CoreData | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/coreDataUsage"> Project </a> |
+| Custom TableViewCell | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/customCellTableViewUsage"> Project </a> |
+| Date Picker | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/datePickerUsage"> Project </a> |
+| File Operations | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/fileOperationsUsage"> Project </a> |
+| Generally Used Segue | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/generallyUsedSegue"> Project </a> |
+| ImageView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/imageViewUsage"> Project </a> |
+| Multiple Field TableView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/multipleFieldTableViewUsage"> Project </a> |
+| Multiple TableView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/multipleTableViewUsage"> Project </a> |
+| Navigation Bar | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/navigationBarUsage"> Project </a> |
+| PickerView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/pickerViewUsage"> Project </a> |
+| PickerView With TextField | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/pickerViewWithTextFieldUsage"> Project </a> |
+| Present Modally Segue With Code | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/presentModallySegueWithCode"> Project </a> |
+| Sample CollectionView With Details | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/sampleCollectionViewWithDetails"> Project </a> |
+| Sample Contacts App | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/sampleContactApp"> Project </a> |
+| Sample Counting User Default App | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/sampleCountingUserDefaultApp"> Project </a> |
+| Sample Login With User Default | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/sampleLoginWithUserDefaults"> Project </a> |
+| Sample TableCell With Details | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/sampleTableCellWithDetails"> Project </a> |
+| ScrollView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/scrollViewUsage"> Project </a> |
+| SearchBar | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/searchBarUsage"> Project </a> |
+| SearchBar With Details | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/searchBarWithDetails"> Project </a> |
+| Show Segue With Navigation | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/showSegueWithNavigation"> Project </a> |
+| Slider & Stepper | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/sliderAndStepperUsage"> Project </a> |
+| Sqlite | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/sqliteUsage"> Project </a> |
+| Switch Segmented | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/switchSegmentedUsage"> Project </a> |
+| TabBar | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/tabBarUsage"> Project </a> |
+| TableView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/tableViewUsage"> Project </a> |
+| Time Picker | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/timePickerUsage"> Project </a> |
+| Toolbar | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/toolbarUsage"> Project </a> |
+| User Defaults | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/userDefaultUsage"> Project </a> |
+| VideoView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/videoViewUsage"> Project </a> |
+| ViewController | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/viewController"> Project </a> |
+| WebView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/webViewUsage"> Project </a> |
+
+
+## Sample Projects
+
+| Name | Link |
+| ---- | ---- |
+| Dictionary App | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/DictionaryApp"> Project </a> |
+| Flag Quiz App | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/FlagQuizApp"> Project </a> |
+| Grades App | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/GradesApp"> Project </a> |
+| Egg Timer App | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/eggTimer"> Project </a> |
+| Guess Number App | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/guessNumberGame"> Project </a> |
+| Contacts App | <a href="https://github.com/yusufcanbircan/contactsApp"> Project </a> |
+
+
+## Personal Projects
+
+| Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
+| ---- | ------ | --- | ------- | ----------------- | ---------------- |
+| Helicopter Aerodynamics | Done✅ | <a href="https://github.com/yusufcanbircan/HelicopterAerodynamicsApp"> Project </a> | Expert System | UIKit, Sqlite | UIKit Animations, ImageView, Navigation Controller |
+
