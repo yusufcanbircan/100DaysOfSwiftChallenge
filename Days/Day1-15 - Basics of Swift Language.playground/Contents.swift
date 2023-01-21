@@ -1093,3 +1093,95 @@ struct Employeeee: Person {
 
 let taylor = Employeeee(name: "Taylor Swift")
 taylor.sayHello()
+
+
+// MARK: - Day 14 – optionals, nil coalescing
+
+//// How to handle missing data with optionals
+
+func square(number: Int) -> Int {
+    number * number
+}
+
+var number: Int? = nil
+//print(square(number: number))
+if let unwrappedNumber = number {
+    print(square(number: unwrappedNumber))
+}
+
+//// How to unwrap optionals with guard
+
+var myVar: Int? = 3
+
+if let unwrapped = myVar {
+    print("Run if myVar has a value inside")
+}
+
+/*guard let unwrapped = myVar else {
+    print("Run if myVar doesn't have a value inside")
+}*/
+func printSquare(of number: Int?) {
+    guard let number = number else {
+        print("Missing input")
+
+        // 1: We *must* exit the function here
+        return
+    }
+
+    // 2: `number` is still available outside of `guard`
+    print("\(number) x \(number) is \(number * number)")
+}
+
+
+//// How to unwrap optionals with nil coalescing
+
+let captains = [
+    "Enterprise": "Picard",
+    "Voyager": "Janeway",
+    "Defiant": "Sisko"
+]
+
+let new = captains["Serenity"] ?? "N/A"
+
+let tvShows = ["Archer", "Babylon 5", "Ted Lasso"]
+let favorite = tvShows.randomElement() ?? "None"
+
+
+struct Boook {
+    let title: String
+    let author: String?
+}
+
+let book = Boook(title: "Beowulf", author: nil)
+let authoor = book.author ?? "Anonymous"
+print(authoor)
+
+
+//// How to handle multiple optionals using optional chaining
+
+struct Book {
+    let title: String
+    let author: String?
+}
+
+var boouk: Book? = nil
+let author = boouk?.author?.first?.uppercased() ?? "A"
+print(author)
+
+
+//// How to handle function failure with optionals
+
+enum UserError: Error {
+    case badID, networkFailed
+}
+
+func getUsser(id: Int) throws -> String {
+    throw UserError.networkFailed
+}
+
+if let user = try? getUsser(id: 23) {
+    print("User: \(user)")
+}
+
+let ueser = (try? getUsser(id: 23)) ?? "Anonymous"
+print(ueser)
