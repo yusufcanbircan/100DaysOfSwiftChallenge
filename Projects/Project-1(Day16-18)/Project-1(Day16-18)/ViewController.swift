@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UITableViewController {
     
     var pictures = [String]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,7 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
+        pictures = pictures.sorted()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
