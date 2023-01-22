@@ -62,7 +62,7 @@ This is my 100-day Swift journey.
 
 | Name | Link | Subjects |
 | ---- | ---- | -------- |
-|  | <a href=""> Project </a> |  |
+| Project 1 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-1(Day16-18)"> Project </a> | ViewController, Storyboard, FileManager |
 
 ## Sample Projects
 
