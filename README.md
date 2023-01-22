@@ -56,6 +56,9 @@ This is my 100-day Swift journey.
 | VideoView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/videoViewUsage"> Project </a> |
 | ViewController | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/viewController"> Project </a> |
 | WebView | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/webViewUsage"> Project </a> |
+| Alamofire | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/AlamofireUsage"> Project </a> |
+| Firebase | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/FirebaseUsage"> Project </a> |
+| URLSession | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/URLSessionUsage"> Project </a> |
 
 
 ## Hacking With Swift Projects
