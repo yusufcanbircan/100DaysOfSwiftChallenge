@@ -77,6 +77,8 @@ This is my 100-day Swift journey.
 | Egg Timer App | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/eggTimer"> Project </a> |
 | Guess Number App | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/guessNumberGame"> Project </a> |
 | Contacts App | <a href="https://github.com/yusufcanbircan/contactsApp"> Project </a> |
+| Grades App With Alamofire | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/GradesAppAlamofire"> Project </a> |
+| Dictionary App With URLSession| <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/DictionaryAppURLSession"> Project </a> |
 
 
 ## Personal Projects
