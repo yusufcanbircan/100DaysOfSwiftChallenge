@@ -59,6 +59,13 @@ This is my 100-day Swift journey.
 | Alamofire | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/AlamofireUsage"> Project </a> |
 | Firebase | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/FirebaseUsage"> Project </a> |
 | URLSession | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/URLSessionUsage"> Project </a> |
+| CoreLocation | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/CoreLocationUsage"> Project </a> |
+| MapKit | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/MapKitUsage"> Project </a> |
+| MapKit & CoreLocation Together | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/MapKitWithCoreLocation"> Project </a> |
+| Searching On Map | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/SearchingOnMap"> Project </a> |
+| VIPER Pattern | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/ViperPattern"> Project </a> |
+| Data Transfer Via Protocols | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/dataTransferViaProtocols"> Project </a> |
+|  | <a href=""> Project </a> |
 
 
 ## Hacking With Swift Projects
