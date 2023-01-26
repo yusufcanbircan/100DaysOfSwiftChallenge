@@ -6,7 +6,7 @@ This is my 100-day Swift journey.
 
 | Start Date | Finish Date | Day | Course                                    | Status        | Certificate   | 
 |------------|-------------|-----|-------------------------------------------|---------------|---------------|
-| 25/08/2022 | 26/01/2023  | 155 | iOS Mobile App Development Cource         | Done ✅       | - |
+| 25/08/2022 | 26/01/2023  | 155 | iOS Mobile App Development Cource         | Done ✅       | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Certificates"> Certificate </a> | 
 | 06/01/2022 | 01/03/2022  | 56  | Hacking With Swift - UIKit                | Done ❌       | - |
 
 
