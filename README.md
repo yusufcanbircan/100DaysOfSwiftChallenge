@@ -87,6 +87,7 @@ This is my 100-day Swift journey.
 | Grades App With Alamofire | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/GradesAppAlamofire"> Project </a> |
 | Dictionary App With URLSession| <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/DictionaryAppURLSession"> Project </a> |
 | Movies App With Firebase| <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/MoviesAppWithFirebase"> Project </a> |
+| ContactsApp With VIPER Design Pattern | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/ContactsApp-VIPER"> Project </a> |
 
 ## Personal Projects
 
