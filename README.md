@@ -65,7 +65,7 @@ This is my 100-day Swift journey.
 | Searching On Map | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/SearchingOnMap"> Project </a> |
 | VIPER Pattern | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/ViperPattern"> Project </a> |
 | Data Transfer Via Protocols | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/dataTransferViaProtocols"> Project </a> |
-|  | <a href=""> Project </a> |
+| Generic Type | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/genericTypeUsage"> Project </a> |
 
 
 ## Hacking With Swift Projects
@@ -88,6 +88,7 @@ This is my 100-day Swift journey.
 | Dictionary App With URLSession| <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/DictionaryAppURLSession"> Project </a> |
 | Movies App With Firebase| <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/MoviesAppWithFirebase"> Project </a> |
 | ContactsApp With VIPER Design Pattern | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/ContactsApp-VIPER"> Project </a> |
+| Movie List App With MVVM | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/MovieMVVM"> Project </a> |
 
 ## Personal Projects
 
