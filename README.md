@@ -66,6 +66,7 @@ This is my 100-day Swift journey.
 | VIPER Pattern | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/ViperPattern"> Project </a> |
 | Data Transfer Via Protocols | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/dataTransferViaProtocols"> Project </a> |
 | Generic Type | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/genericTypeUsage"> Project </a> |
+| Dependency Injection - Swinject | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/DependencyInjectionUsage-Swinject"> Project </a> |
 
 
 ## Hacking With Swift Projects
