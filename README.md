@@ -67,6 +67,9 @@ This is my 100-day Swift journey.
 | Data Transfer Via Protocols | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/dataTransferViaProtocols"> Project </a> |
 | Generic Type | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/genericTypeUsage"> Project </a> |
 | Dependency Injection - Swinject | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/DependencyInjectionUsage-Swinject"> Project </a> |
+| Protocol Oriented Programming | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/ProtocolOrientedProgramming"> Project </a> |
+| UI Testing | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/UITesting"> Project </a> |
+| Unit Testing | <a href="https://github.com/yusufcanbircan/UIKitWorkSpace/tree/main/UnitTesting"> Project </a> |
 
 
 ## Hacking With Swift Projects
