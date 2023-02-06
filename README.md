@@ -93,6 +93,8 @@ This is my 100-day Swift journey.
 | Movies App With Firebase| <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/MoviesAppWithFirebase"> Project </a> |
 | ContactsApp With VIPER Design Pattern | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/ContactsApp-VIPER"> Project </a> |
 | Movie List App With MVVM | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/MovieMVVM"> Project </a> |
+| MovieApp MVVM Best Practises | <a href="https://github.com/yusufcanbircan/MoviesApp"> Project </a> |
+
 
 ## Personal Projects
 
