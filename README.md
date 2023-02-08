@@ -95,6 +95,16 @@ This is my 100-day Swift journey.
 | Movie List App With MVVM | <a href="https://github.com/yusufcanbircan/SimpleProjects/tree/main/MovieMVVM"> Project </a> |
 | MovieApp MVVM Best Practises | <a href="https://github.com/yusufcanbircan/MoviesApp"> Project </a> |
 
+## LeetCode Problems
+
+| Name | Link |
+| ---- | ---- |
+| 1. Two Sum | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/blob/main/LeetCode/1.%20Two%20Sum.swift"> Problem </a> |
+| 13. Roman To Int | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/blob/main/LeetCode/13.RomanToInt.swift"> Problem </a> |
+| 14. Longest Common Prefix | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/blob/main/LeetCode/14.%20Longest%20Common%20Prefix.swift"> Problem </a> |
+| 9. Palindrome Number | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/blob/main/LeetCode/9.%20Palindrome%20Number.swift"> Problem </a> |
+|  | <a href=""> Problem </a> |
+
 
 ## Personal Projects
 
