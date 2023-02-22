@@ -16,6 +16,7 @@ final class ViewController: UIViewController {
     private var countries = [String]()
     private var score: Int = 0
     private var correctAnswer: Int = 0
+    private var gameoverCounter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,12 +35,12 @@ final class ViewController: UIViewController {
         askQuestion()
     }
     
-    private func askQuestion(action: UIAlertAction! = nil) {
+    private func askQuestion() {
         
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         
-        title = countries[correctAnswer].uppercased()
+        title = "\(countries[correctAnswer].uppercased()) - \(score)"
         
         button1.setImage(UIImage(named: countries[0]), for: .normal)
         button2.setImage(UIImage(named: countries[1]), for: .normal)
@@ -47,29 +48,38 @@ final class ViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
-        var title: String
         
         if sender.tag == correctAnswer {
-            title = "Correct"
             score += 1
         } else {
-            title = "Wrong"
             score -= 1
         }
         
-        let ac = UIAlertController(
-            title: title,
-            message: "Your score is \(score)",
-            preferredStyle: .alert
-        )
         
-        ac.addAction(UIAlertAction(
-            title: "Continue",
-            style: .default,
-            handler: askQuestion
-        ))
+        if gameoverCounter == 10 {
+            let ac = UIAlertController(
+                title: "Game Over",
+                message: "Your score is \(score)",
+                preferredStyle: .alert
+            )
+            
+            ac.addAction(UIAlertAction(
+                title: "Try Again",
+                style: .default,
+                handler: { action in
+                    self.score = 0
+                    self.askQuestion()
+                }
+            ))
+            
+            present(ac, animated: true)
+            
+            gameoverCounter = 0
+        } else {
+            askQuestion()
+            gameoverCounter += 1
+        }
         
-        present(ac, animated: true)
         
     }
     
