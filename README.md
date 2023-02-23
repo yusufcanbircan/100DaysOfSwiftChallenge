@@ -77,6 +77,8 @@ This is my 100-day Swift journey.
 | Name | Link | Subjects |
 | ---- | ---- | -------- |
 | Project 1 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-1(Day16-18)"> Project </a> | ViewController, Storyboard, FileManager |
+| Project 2 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-2(Day19-21)"> Project </a> | Auto Layout, UIButton, CALayer, UIColor, UIAlertController |
+|  | <a href=""> Project </a> |  |
 
 ## Sample Projects
 
