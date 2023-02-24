@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MilestoneProject(1-3)
+//  Project-4(Day24-26)
 //
-//  Created by Yusuf Can Bircan on 23.02.2023.
+//  Created by Yusuf Can Bircan on 24.02.2023.
 //
 
 import UIKit
