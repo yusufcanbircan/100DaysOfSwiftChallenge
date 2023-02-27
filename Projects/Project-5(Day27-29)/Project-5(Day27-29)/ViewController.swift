@@ -71,6 +71,13 @@ class ViewController: UITableViewController {
         let errorTitle: String
         let errorMessage: String
         
+        if answer.count < 3 {
+            errorTitle = "So short word!"
+            errorMessage = "Try a taller word"
+            showErrorMessage(title: errorTitle, message: errorMessage)
+            return
+        }
+        
         if isPossible(word: lowerAnswer) {
             if isOriginal(word: lowerAnswer) {
                 if isReal(word: lowerAnswer) {
@@ -95,9 +102,7 @@ class ViewController: UITableViewController {
             errorMessage = "You can't speel that word from \(title.lowercased())."
         }
         
-        let ac = UIAlertController(title: errorTitle, message: errorMessage, preferredStyle: .alert)
-        ac.addAction(UIAlertAction(title: "Okay", style: .default))
-        present(ac, animated: true)
+        showErrorMessage(title: errorTitle, message: errorMessage)
         
     }
     
@@ -126,6 +131,14 @@ class ViewController: UITableViewController {
         let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
         
         return misspelledRange.location == NSNotFound
+    }
+    
+    func showErrorMessage (title: String, message: String) {
+        
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Okay", style: .default))
+        present(ac, animated: true)
+
     }
 
 }
