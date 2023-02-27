@@ -38,11 +38,11 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        allWords.count
+        usedWords.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Words", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Word", for: indexPath)
         cell.textLabel?.text = usedWords[indexPath.row]
 
         return cell
@@ -68,14 +68,36 @@ class ViewController: UITableViewController {
         
         let lowerAnswer = answer.lowercased()
         
-        if isPossible(word: lowerAnswer),
-           isOriginal(word: lowerAnswer),
-           isReal(word: lowerAnswer) {
-            usedWords.insert(answer, at: 0)
+        let errorTitle: String
+        let errorMessage: String
+        
+        if isPossible(word: lowerAnswer) {
+            if isOriginal(word: lowerAnswer) {
+                if isReal(word: lowerAnswer) {
+                    usedWords.insert(answer, at: 0)
+                    
+                    let indexPath = IndexPath(row: 0, section: 0)
+                    tableView.insertRows(at: [indexPath], with: .automatic)
+                    
+                    return
+                } else {
+                    errorTitle = "Word not recognized"
+                    errorMessage = "You can't just make them up, you know!"
+                }
+            } else {
+                errorTitle = "Word already used!"
+                errorMessage = "Be more original!"
+            }
+        } else {
+            guard let title = title else { return }
             
-            let indexPath = IndexPath(row: 0, section: 0)
-            tableView.insertRows(at: [indexPath], with: .automatic)
+            errorTitle = "Word not possible!"
+            errorMessage = "You can't speel that word from \(title.lowercased())."
         }
+        
+        let ac = UIAlertController(title: errorTitle, message: errorMessage, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Okay", style: .default))
+        present(ac, animated: true)
         
     }
     
