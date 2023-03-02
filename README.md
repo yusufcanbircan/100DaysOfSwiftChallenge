@@ -81,6 +81,7 @@ This is my 100-day Swift journey.
 | Project 3 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-3(Day22)"> Project </a> | UIBarButtonItem, UIActivityViewController |
 | Project 4 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-4(Day24-26)"> Project </a> | WKWebKit, Action Sheets, UIProgressView |
 | Project 5 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-5(Day27-29)"> Project </a> | UITableView, UIAlertController |
+| Project 6 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-6(Day30-31)"> Project </a> | AutoLayout |
 
 ## Sample Projects
 
