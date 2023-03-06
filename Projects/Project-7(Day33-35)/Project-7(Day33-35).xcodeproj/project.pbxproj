@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BB7E029729B5C68D000582B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E029629B5C68D000582B0 /* DetailViewController.swift */; };
+		BB7E029929B5D272000582B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E029829B5D272000582B0 /* SceneDelegate.swift */; };
 		BBE9787929B26453007FA744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9787829B26453007FA744 /* AppDelegate.swift */; };
-		BBE9787B29B26453007FA744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9787A29B26453007FA744 /* SceneDelegate.swift */; };
 		BBE9787D29B26453007FA744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9787C29B26453007FA744 /* ViewController.swift */; };
 		BBE9788029B26453007FA744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE9787E29B26453007FA744 /* Main.storyboard */; };
 		BBE9788229B26455007FA744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE9788129B26455007FA744 /* Assets.xcassets */; };
@@ -20,9 +20,9 @@
 
 /* Begin PBXFileReference section */
 		BB7E029629B5C68D000582B0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BB7E029829B5D272000582B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../Project-2(Day19-21)/Project-2(Day19-21)/SceneDelegate.swift"; sourceTree = "<group>"; };
 		BBE9787529B26453007FA744 /* Project-7(Day33-35).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-7(Day33-35).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE9787829B26453007FA744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBE9787A29B26453007FA744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BBE9787C29B26453007FA744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBE9787F29B26453007FA744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBE9788129B26455007FA744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				BBE9787829B26453007FA744 /* AppDelegate.swift */,
-				BBE9787A29B26453007FA744 /* SceneDelegate.swift */,
 				BBE9787C29B26453007FA744 /* ViewController.swift */,
 				BBE9787E29B26453007FA744 /* Main.storyboard */,
 				BBE9788129B26455007FA744 /* Assets.xcassets */,
@@ -72,6 +71,7 @@
 				BBE9789529B5BE10007FA744 /* Petition.swift */,
 				BBE9789929B5C06B007FA744 /* Petitions.swift */,
 				BB7E029629B5C68D000582B0 /* DetailViewController.swift */,
+				BB7E029829B5D272000582B0 /* SceneDelegate.swift */,
 			);
 			path = "Project-7(Day33-35)";
 			sourceTree = "<group>";
@@ -151,8 +151,8 @@
 				BBE9789629B5BE10007FA744 /* Petition.swift in Sources */,
 				BBE9787929B26453007FA744 /* AppDelegate.swift in Sources */,
 				BB7E029729B5C68D000582B0 /* DetailViewController.swift in Sources */,
-				BBE9787B29B26453007FA744 /* SceneDelegate.swift in Sources */,
 				BBE9789A29B5C06B007FA744 /* Petitions.swift in Sources */,
+				BB7E029929B5D272000582B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
