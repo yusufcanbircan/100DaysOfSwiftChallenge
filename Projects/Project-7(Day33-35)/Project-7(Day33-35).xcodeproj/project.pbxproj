@@ -13,6 +13,8 @@
 		BBE9788029B26453007FA744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE9787E29B26453007FA744 /* Main.storyboard */; };
 		BBE9788229B26455007FA744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE9788129B26455007FA744 /* Assets.xcassets */; };
 		BBE9788529B26455007FA744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE9788329B26455007FA744 /* LaunchScreen.storyboard */; };
+		BBE9789629B5BE10007FA744 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9789529B5BE10007FA744 /* Petition.swift */; };
+		BBE9789A29B5C06B007FA744 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9789929B5C06B007FA744 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BBE9788129B26455007FA744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE9788429B26455007FA744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBE9788629B26455007FA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE9789529B5BE10007FA744 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		BBE9789929B5C06B007FA744 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BBE9788129B26455007FA744 /* Assets.xcassets */,
 				BBE9788329B26455007FA744 /* LaunchScreen.storyboard */,
 				BBE9788629B26455007FA744 /* Info.plist */,
+				BBE9789529B5BE10007FA744 /* Petition.swift */,
+				BBE9789929B5C06B007FA744 /* Petitions.swift */,
 			);
 			path = "Project-7(Day33-35)";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE9787D29B26453007FA744 /* ViewController.swift in Sources */,
+				BBE9789629B5BE10007FA744 /* Petition.swift in Sources */,
 				BBE9787929B26453007FA744 /* AppDelegate.swift in Sources */,
 				BBE9787B29B26453007FA744 /* SceneDelegate.swift in Sources */,
+				BBE9789A29B5C06B007FA744 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
