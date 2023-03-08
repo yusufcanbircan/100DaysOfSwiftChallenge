@@ -83,6 +83,7 @@ This is my 100-day Swift journey.
 | Project 5 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-5(Day27-29)"> Project </a> | UITableView, UIAlertController |
 | Project 6 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-6(Day30-31)"> Project </a> | AutoLayout |
 | Project 7 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-7(Day33-35)"> Project </a> | UITabBarController, Data, Codable |
+| Project 8 | <a href="https://github.com/yusufcanbircan/100DaysOfSwiftChallenge/tree/main/Projects/Project-8(Day36-38)"> Project </a> | Text Alignment, Layout Marigin, UIFont |
 
 ## Sample Projects
 
