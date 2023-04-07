@@ -119,5 +119,5 @@ This is my 100-day Swift journey.
 | Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
 | ---- | ------ | --- | ------- | ----------------- | ---------------- |
 | Helicopter Aerodynamics | Done✅ | <a href="https://github.com/yusufcanbircan/HelicopterAerodynamicsApp"> Project </a> | Expert System | UIKit, Sqlite | UIKit Animations, ImageView, Navigation Controller |
-| Rick & Morty App | Done❌ | <a href="https://github.com/yusufcanbircan/HelicopterAerodynamicsApp"> Project </a> | Best Practise App | UIKit, URLSession, MVVM | CollectionView, Pagination, TabBar |
+| Rick & Morty App | Done❌ | <a href="https://github.com/yusufcanbircan/Rick-MortyApp"> Project </a> | Best Practise App | UIKit, URLSession, MVVM | CollectionView, Pagination, TabBar |
 
